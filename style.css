@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Navbar */
+
+.top-bar {
+    width: 100%;
+    background-color: #131921;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.top-bar img {
+    width: 120px;
+}
+
+/* Layout */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.left-section {
+    width: 40%;
+}
+
+.right-section {
+    width: 60%;
+}
+
+/* Watch */
+
+.watch-container {
+    position: relative;
+    width: 420px;
+}
+
+#watch-image {
+    width: 420px;
+}
+
+#watch-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 420px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Text */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+p {
+    width: 80%;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Color Buttons */
+
+.color-btn {
+    width: 50px;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.black {
+    background-color: #23211f;
+}
+
+.red {
+    background-color: #ca3d22;
+}
+
+.blue {
+    background-color: #565681;
+}
+
+.pink {
+    background-color: #e9c7be;
+}
+
+.purple {
+    background-color: #8a5362;
+}
+
+/* Feature Buttons */
+
+.feature-btn {
+    padding: 12px 22px;
+
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    background-color: #e5e5e5;
+
+    margin-right: 10px;
+}
+
+/* Buy Button */
+
+#buy-btn {
+    background-color: #f7a61a;
+
+    border: none;
+
+    padding: 15px 28px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.active-color{
+    border: 3px solid #009688;
+}
